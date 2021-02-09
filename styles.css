@@ -311,3 +311,61 @@ img.play {
     margin-top: 45.5px;
     margin-left: 90px;
 }
+
+.card {
+    border: none;
+}
+
+.carousel-img {
+    width: 160px;
+    height: 160px;
+}
+  
+img.p-arrow-icon,
+img.n-arrow-icon {
+    width: 29.04px;
+    height: 62.67px;
+}
+  
+.carousel__section .font-italic {
+    font-size: 22px;
+    line-height: 34px;
+    max-width: 730px;
+}
+  
+.carousel__section .font-weight-bold {
+    font-size: 22px;
+    line-height: 34px;
+}
+  
+ 
+/* Carousel videos */
+  
+.icon__size {
+    width: 64px;
+    height: 64px;
+}
+ 
+.carousel__time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+ 
+.carousel__user {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+  .carousel__user__img {
+    width: 30px;
+}
+
+.carousel-inner {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
