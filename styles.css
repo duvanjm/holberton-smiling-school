@@ -48,6 +48,16 @@ h1 {
     background-size: cover;
 }
 
+.home-page-courses {
+    background: url(./images/pic_3.jpg) no-repeat center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    justify-content: space-between;
+    background-size: cover;
+}
+
 .button {
     display: flex;
     padding: 1rem 1rem;
@@ -86,8 +96,29 @@ h1 {
     margin-left: 150px;
 }
 
+.tex_courses {
+    margin-top: -100px;
+}
+
+.text_coiny {
+    font-size: 32px;
+    font-family: Coiny;
+}
+
+.input {
+    font-size: 14px;
+}
+
 .learn {
     color: #C271FF;
+}
+
+.color {
+    background: #C271FF;
+}
+
+.white__ {
+    background: #ffffff;
 }
 
 .header-container {
@@ -450,4 +481,24 @@ table {
     border-style: none;
 }
 
+.color_1 {
+    background-color: #d49dff;
+    color: #ffffff;
+}
 
+.color_1:focus {
+    background-color: #d49dff;
+}
+
+.color_1::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+  
+.color_1:-ms-input-placeholder {
+    color: #ffffff;
+}
+  
+.color_1::-ms-input-placeholder {
+    color: #ffffff;
+}
