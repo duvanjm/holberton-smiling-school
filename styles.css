@@ -38,6 +38,16 @@ h1 {
     background-size: cover;
 }
 
+.home-page-pricing {
+    background: url(./images/pic_2.jpg) no-repeat center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    justify-content: space-between;
+    background-size: cover;
+}
+
 .button {
     display: flex;
     padding: 1rem 1rem;
@@ -50,6 +60,30 @@ h1 {
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 30px;
+}
+
+.button_2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    background-color: #C271FF;
+    text-decoration: none;
+    border-style: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.button_3 {
+    display: flex;
+    margin-left: 420px;
+}
+
+.text__ {
+    margin-left: 150px;
 }
 
 .learn {
@@ -79,10 +113,20 @@ h1 {
     position: relative;
     z-index: 3;
     background: transparent;
+    margin-bottom: 150px;
 }
 
 .Title-home {
     font-size: 110px;
+}
+
+.Title-home-pricing {
+    margin-bottom: 900px;
+    font-size: 40px;
+}
+
+.Title-home-2 {
+    font-size: 70px;
 }
 
 /* Navbar */
@@ -401,3 +445,9 @@ img.n-arrow-icon {
     color: #6b6b6b;
     padding-top: 120px;
 }
+
+table {
+    border-style: none;
+}
+
+
