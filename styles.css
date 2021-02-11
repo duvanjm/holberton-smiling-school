@@ -91,6 +91,17 @@ h1 {
     display: flex;
     margin-left: 420px;
 }
+.button:hover {
+    opacity: 0.9;
+}
+
+.button_2:hover {
+    opacity: 0.9;
+}
+
+.button_3:hover {
+    opacity: 0.9;
+}
 
 .text__ {
     margin-left: 150px;
